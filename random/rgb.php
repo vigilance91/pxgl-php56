@@ -39,7 +39,7 @@
 // use function imagesetpixel as setPx;
 //
 //require_once 're.php';
-require_once 'rand.php';
+require_once dirname(__FILE__) . '/rand.php';
 //
 //use function re\isUint as isUInt;
 use function ps\image\rand\rgb as rgbPNG;

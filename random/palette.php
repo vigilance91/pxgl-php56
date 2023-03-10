@@ -3,7 +3,7 @@
 ///@file palette.php
 ///@brief generate a RGB png texture filled with a randomized palette of colors, from server upon url request
 ///
-require_once 'rand.php';
+require_once dirname(__FILE__) . '/rand.php';
 //
 use function ps\image\rand\rgbPalette as rgbPalette;
 //

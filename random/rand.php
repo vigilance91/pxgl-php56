@@ -21,7 +21,8 @@ namespace ps\image\rand;
 //$DIR = dirname(__FILE__);
 
 foreach([
-    $_SERVER['DOCUMENT_ROOT'] . "/php/crypto/image/image"
+    //$_SERVER['DOCUMENT_ROOT'] . "/pxgl-php56/image"
+    dirname(dirname(__FILE__)) . "/image"
 ] as $p){
     require_once "$p.php";
 }

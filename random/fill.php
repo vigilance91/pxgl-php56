@@ -10,7 +10,7 @@
 
 //namespace ps\rand;
 
-require_once 'rand.php';
+require_once dirname(__FILE__) . '/rand.php';
 //
 use function imagecreatetruecolor as createRGB;
 //
