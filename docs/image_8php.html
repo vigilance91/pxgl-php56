@@ -120,11 +120,12 @@ Functions</h2></td></tr>
 <tr class="memitem:abce543c8f4fde22469f912aac645a513"><td class="memItemLeft" align="right" valign="top"><a id="abce543c8f4fde22469f912aac645a513"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ps\image::createProcRGBiSquare</b> ($proc, $size=null)</td></tr>
 <tr class="separator:abce543c8f4fde22469f912aac645a513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba47eed4b0d056871aadc30b3f1f129d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="image_8php.html#aba47eed4b0d056871aadc30b3f1f129d">ps\image::createProcRGBAiSquare</a> ($proc, $size=null)</td></tr>
+<tr class="separator:aba47eed4b0d056871aadc30b3f1f129d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a4a1e94164cac5c001cebf76a7f8d9d8a"><td class="memItemLeft" align="right" valign="top"><a id="a4a1e94164cac5c001cebf76a7f8d9d8a"></a>
-const&#160;</td><td class="memItemRight" valign="bottom"><b>ps\image::COLOR_MAX</b> 255</td></tr>
+<tr class="memitem:a4a1e94164cac5c001cebf76a7f8d9d8a"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="image_8php.html#a4a1e94164cac5c001cebf76a7f8d9d8a">ps\image::COLOR_MAX</a> 255</td></tr>
 <tr class="separator:a4a1e94164cac5c001cebf76a7f8d9d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca8eb991c33ab6d5260d598f686fcf42"><td class="memItemLeft" align="right" valign="top"><a id="aca8eb991c33ab6d5260d598f686fcf42"></a>
 const&#160;</td><td class="memItemRight" valign="bottom"><b>ps\image::IMG_MAX_SIZE</b> 1048576</td></tr>
@@ -138,6 +139,8 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>ps\image::IMG_DIMENS
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>web service api for generating images from server url requests </p>
+<p>web service api for generating rgba images from server url requests</p>
+<dl class="section note"><dt>Note</dt><dd>php does not support generating pure alpha images, there must always be a background color to blend with. </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="file_a3052876e4a15a2c39b8218f49b7a3996"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#file_a3052876e4a15a2c39b8218f49b7a3996">&#9670;&nbsp;</a></span>createFill()</h2>
@@ -180,6 +183,35 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>ps\image::IMG_DIMENS
 <li>proc a function taking arguments x,y returning an unsigned char </li>
 </ul>
 </dd></dl>
+
+</div>
+</div>
+<a id="file_aba47eed4b0d056871aadc30b3f1f129d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#file_aba47eed4b0d056871aadc30b3f1f129d">&#9670;&nbsp;</a></span>createProcRGBAiSquare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ps\image\createProcRGBAiSquare </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$proc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$size</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section note"><dt>Note</dt><dd>only GIF and PNG files support transparency. </dd></dl>
 
 </div>
 </div>
@@ -250,6 +282,22 @@ const&#160;</td><td class="memItemRight" valign="bottom"><b>ps\image::IMG_DIMENS
 <ul>
 <li>img a resource created with imagecreatetruecolor </li>
 </ul>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="file_a4a1e94164cac5c001cebf76a7f8d9d8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#file_a4a1e94164cac5c001cebf76a7f8d9d8a">&#9670;&nbsp;</a></span>COLOR_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const ps::image\COLOR_MAX 255</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>make script for creating PNG then send to FTP server for storage </dd></dl>
 
 </div>
 </div>

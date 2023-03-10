@@ -4,8 +4,9 @@ var indexSectionsWithContent =
   1: "cpr",
   2: "cfiprs",
   3: "_bcefgrstuw",
-  4: "p",
-  5: "lp"
+  4: "c",
+  5: "p",
+  6: "lpt"
 };
 
 var indexSectionNames =
@@ -14,8 +15,9 @@ var indexSectionNames =
   1: "namespaces",
   2: "files",
   3: "functions",
-  4: "groups",
-  5: "pages"
+  4: "variables",
+  5: "groups",
+  6: "pages"
 };
 
 var indexSectionLabels =
@@ -24,7 +26,8 @@ var indexSectionLabels =
   1: "Namespaces",
   2: "Files",
   3: "Functions",
-  4: "Modules",
-  5: "Pages"
+  4: "Variables",
+  5: "Modules",
+  6: "Pages"
 };
 

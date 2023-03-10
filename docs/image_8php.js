@@ -2,6 +2,7 @@ var image_8php =
 [
     [ "createFill", "image_8php.html#a3052876e4a15a2c39b8218f49b7a3996", null ],
     [ "createProcGreyScale", "image_8php.html#a6f5046ab83ae3f0c2207ca2b346b8107", null ],
+    [ "createProcRGBAiSquare", "image_8php.html#aba47eed4b0d056871aadc30b3f1f129d", null ],
     [ "createProcRGBi", "image_8php.html#a81b97b7d955d0b254026b7a731fda945", null ],
     [ "createProcRGBiSquare", "image_8php.html#abce543c8f4fde22469f912aac645a513", null ],
     [ "gColor", "image_8php.html#ada5753504bdbe4bb583952610db00b37", null ],

@@ -1,11 +1,16 @@
 var NAVTREE =
 [
   [ "PS Graphics Library", "index.html", [
-    [ "PHP Photoscript Graphics Library", "index.html", null ],
+    [ "PHP PX Graphics Library", "index.html", null ],
     [ "LICENSE", "md__l_i_c_e_n_s_e.html", null ],
+    [ "Todo List", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ]
+      [ "Namespace List", "namespaces.html", "namespaces" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ]
+      ] ]
     ] ],
     [ "Files", null, [
       [ "File List", "files.html", "files" ],

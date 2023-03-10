@@ -22,7 +22,7 @@ var group__ps =
     [ "five", "group__ps.html#ga588ca8ca67e0bc9c505bc0fcfdc46a4b", null ],
     [ "greyL", "group__ps.html#ga638508d5d52f2c460b94c5657b13f357", null ],
     [ "randColor24ui", "group__ps.html#gae62a5df00ed775824119b3ae2698d232", null ],
-    [ "rgb", "group__ps.html#gaf384988c255a3db95e7687370808577e", null ],
+    [ "rgb", "group__ps.html#ga463f7c3a1678b2a1e3cc8767d67b2884", null ],
     [ "rgbPalette", "group__ps.html#ga043b237c7cb35f7559f1fcb8350208c5", null ],
     [ "rgbSquare", "group__ps.html#ga161003e2bad481b2828ad444804da4b3", null ],
     [ "rgbSquareNorm", "group__ps.html#gac82148cde4aa70c352a6c36c0a3b6f81", null ],
